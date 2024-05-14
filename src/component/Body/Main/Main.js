@@ -97,7 +97,7 @@ function Main({ d }) {
               <div className='sk-ds-row'>
                 {
                   d[0].about[0].proglangs.map((sk, index) => (
-                    <OnlyImage key={index} onlyImgPath={`/images/${sk.i}.png`} imgTitle={sk.i} />
+                    <OnlyImage key={index} onlyImgPath={`./images/${sk.i}.png`} imgTitle={sk.i} />
                   ))
                 }
               </div>

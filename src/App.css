@@ -18,7 +18,7 @@
 @media screen and (min-width: 576px) {
   .App {
     padding: 16px 0px;
-    background-image: url('../public/images/b.svg');
+    background-image: url('./images/b.png');
    
     /* background-color: #090717; */
 
