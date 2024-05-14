@@ -1,0 +1,35 @@
+ .AboutPara_container{
+    width: 100%;
+    /* background-color: #AEA6A6; */
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom: 1em;
+    /* background-color: red!important; */
+}
+/*
+.Para_container .st{
+    font-size: 12px;
+    color: #AEA6A6;
+    text-align: left;
+}  
+.Para_container .st1{
+    font-size: 12px;
+    color: #AEA6A6;
+    text-align: right;
+    
+} */
+.AboutPara_container .st2{
+    font-size: 1rem;
+    color: #AEA6A6;
+    text-align: justify;
+    
+}
+.AboutPara_container .st3{
+    /* background-color: red; */
+    font-size: 1rem;
+    color: #AEA6A6;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: var(2);
+    overflow: hidden;
+    -webkit-box-orient: vertical
+}

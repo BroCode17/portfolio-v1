@@ -1,0 +1,25 @@
+.link-click{
+    /* width: 90px; */
+    min-width: auto;
+}
+.link-click a{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.link-click div{
+    /* width: 10px; */
+    margin-right: .5em;
+    padding: 0;
+    width: 13px;
+    height: 13px;
+}
+
+.link-click p{
+    color: #FFF;
+    font-size: .7rem;
+}

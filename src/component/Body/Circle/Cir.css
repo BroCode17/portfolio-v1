@@ -1,0 +1,20 @@
+.cicle{
+    /* filter: blur(500); */
+    position: absolute;
+    width: 970px;
+    height: 970px;
+    
+    /* background-color: #295762; */
+    border-radius: 970px;
+    background: #295762;
+filter: blur(500px);
+
+
+    /* border-color: #090717; */
+    /* background-color: #FFF; */
+    /* background-image: rgb(41,87,98); */
+    
+/* background: linear-gradient(90deg, rgba(41,87,98,1) 0%, rgba(9,7,23,1) 55%); */
+
+
+}

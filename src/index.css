@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;500;600&family=Source+Sans+3:wght@200;300;400&display=swap');
+:root{
+  
+  --color-primary: #090717;
+  --color-secondary: #295762;
+  --text-color-primary: #FFDB96;
+  --text-color-secondary: #AEA6A6;
+  --text-color-third: #FFF;
+  --text-color-fouth:  #252323;
+  --mian-section-margin: 4em;
+  --general-section-margin: 2em;
+  --intro-section-space-margin: 4em;
+  --pro-img-skill-margin: 1em;
+
+
+  --form-submit-font-size: 1rem;
+
+  --glow-color: hsl(0, 85%, 52%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overscroll-behavior-y: unset; */
+  line-height: normal;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--text-color-secondary);
+  border-radius: .5em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+html{
+  /* scroll-snap-type: mandatory; */
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+
+img{
+  display: block;
+}
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-primary);
+  /* background-image: url('./images/b.png'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+ 
+ /* isolation: isolate; */
+  /* background-color: linear-gradient( 86.3deg,  rgba(0,119,182,1) 3.6%, rgba(8,24,68,1) 87.6% ); */
+  color: #FFFFFF;
+  position: relative;
+  
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+     */
+     font-family: 'Outfit', sans-serif;
+     font-weight: 400;
+
+}

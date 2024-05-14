@@ -1,0 +1,21 @@
+.mb-bg-cont{
+    width: 100%;
+    border-radius: .2em;
+    flex-shrink: 0;
+    background: #090717;
+    position: relative;
+    z-index: 1;
+    color: #AEA6A6;
+    padding: 5em 0;
+    
+ }
+ .mb-in-cont::after{
+    content: "";
+    position: absolute;
+    background: #d9d9d9;
+    inset: 0;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    border-radius: .25em;
+    /* opacity: .1; */
+}

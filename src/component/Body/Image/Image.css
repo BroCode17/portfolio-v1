@@ -1,0 +1,61 @@
+.figure{
+    /* background-color: red; */
+   width: 100%;
+    
+    /* min-width: 90px; */
+    height: 250px;
+    /* padding: 10px; */
+    animation: bounceback .5s ease  1 forwards normal;
+}
+.figure:hover{
+    animation: bounceforward .5s ease  1 forwards normal;
+}
+
+.figure img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    max-width: 250px;
+}
+
+@keyframes bounceforward {
+    0%,20%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(1.2)
+    }
+    70%{
+        transform: scale(1.15)
+    }
+    80%{
+        transform: scale(1.18)
+    }
+    90%{
+        transform: scale(1.22)
+    }
+   
+    100%{
+        transform: scale(1.2)
+    }
+}
+@keyframes bounceback {
+    0%,20%{
+        transform: scale(1.2);
+    }
+    40%{
+        transform: scale(0.9)
+    }
+    70%{
+        transform: scale(1.05)
+    }
+    80%{
+        transform: scale(1)
+    }
+    90%{
+        transform: scale(1.02)
+    }
+    100%{
+        transform: scale(1)
+    }
+}

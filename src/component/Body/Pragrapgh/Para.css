@@ -1,0 +1,37 @@
+.Para_container{
+    /* width: 60%; */
+    /* background-color: #AEA6A6; */
+    width: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+
+}
+
+.Para_container .st{
+    font-size: 16px;
+    color: #AEA6A6;
+    text-align: left;
+}  
+.Para_container .st1{
+    font-size: 16px;
+    color: #AEA6A6;
+    text-align: right;
+    
+}
+
+.cutoff-text {
+  
+
+    display: -webkit-box;
+    -webkit-line-clamp: var(4);
+    overflow: hidden;
+    -webkit-box-orient: vertical
+}
+.Para_container .st2{
+    font-size: 12px;
+    color: #AEA6A6;
+    text-align: justify;
+    
+}
+
+

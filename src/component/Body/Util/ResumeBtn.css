@@ -1,0 +1,65 @@
+
+.res-click{
+    outline: none;
+    border: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    line-height: normal;
+    background: none;
+    color: #FFF;
+    cursor: pointer;
+    transition: .2s  ease-in-out, transform .5s linear;
+    animation: godown .3s linear 1 normal both;
+    text-decoration: none;
+}
+
+.res-click-cont{
+ color: var(--text-color-primary);
+ transition: .2s  ease-in-out;
+ 
+
+
+}
+.res-click-cont > .res-click:hover{
+ color: var(--text-color-primary);
+ transition: .2s  ease-in-out;
+ animation: gotop .3s linear 1 normal forwards;
+
+}
+.res-click-cont > .res-click:hover + .arrow-up{
+    transition: .2s  ease-in-out;
+    transform: scale(1.2);
+}
+.arrow-up{
+    transition: .2s  ease-in-out;
+    margin-left: .2em;
+    color: #FFF;
+    text-decoration: none;
+}
+.arrow-up:hover{
+    color: #FFF!important;
+    
+}
+/* Animation */
+@keyframes gotop {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-1px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes godown{
+    0%{
+        transform: translateY(-1px);
+    }
+
+
+    100% {
+        transform: translateY(0);
+    }
+}

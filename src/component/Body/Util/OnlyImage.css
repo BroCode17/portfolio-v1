@@ -1,0 +1,29 @@
+.img_cont{
+    width: 20%;
+    height: auto;
+    /* background-color: red; */
+    margin-bottom: 2em;
+    
+    padding: 0;
+    margin-right: 8px;
+
+    /* display: flex; */
+}
+
+.img_cont  img{
+    width: 100%;
+    height: auto;
+}
+@media screen and (min-width: 578px) {
+    .img_cont img:hover{
+        animation:big 1s;
+    }
+    @keyframes big {
+        0%{
+            transform: scale(1.5);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
+}

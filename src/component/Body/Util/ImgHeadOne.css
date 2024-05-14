@@ -1,0 +1,29 @@
+.Img_head_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+
+.Img_head_cont div{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid blue; */
+    
+}
+.Img_head_cont div img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    /* overflow: hidden; */
+}
+.skills_heading{
+    margin-left: 10px;
+    color: #FFDB96;
+    font-size: 'Outfit', ;
+    font-weight: 500;
+}

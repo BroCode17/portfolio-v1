@@ -1,0 +1,11 @@
+.cus_header_container{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-top: 2em;
+    /* background-color: red; */
+}
+.cus_header{
+    color: #FFDB96; 
+    font-size: 1rem;
+}

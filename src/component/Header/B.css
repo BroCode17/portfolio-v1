@@ -1,0 +1,14 @@
+.b{
+    /* background-color: #295762; */
+    
+    width: 600px;
+    height: 300px;
+    border-radius: 50%;
+    filter: blur(150px);
+    filter: drop-shadow(10px);
+    backface-visibility: hidden;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    
+}

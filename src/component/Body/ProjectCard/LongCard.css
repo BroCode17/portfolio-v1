@@ -1,0 +1,124 @@
+.long_cont {
+    width: 100%;
+    min-height: 220px;
+
+}
+
+.res_card_long {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1.5em 0; */
+    /* background-color: yellow; */
+
+}
+
+.res_h1 {
+    color: #FFDB96;
+    font-size: .8rem;
+    /* background-color: green; */
+    text-align: right;
+
+}
+
+.res_card_long .res_h1 {
+    width: 40%;
+    align-self: flex-start;
+    margin-top: 1em;
+    /* margin-left: 5em */
+    /* background-color: red; */
+
+}
+
+.res_card_long .res_d_long {
+    width: 50%;
+    /* min-height: 70%; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 2em 0 1em;
+    /* flex: 3; */
+    /* background-color: green; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 6px;
+    /* border: 5px solid green; */
+
+}
+
+.work_title {
+    font-size: 1.05rem;
+    font-weight: normal;
+    font-family: 'Outfit';
+    color: #FFF;
+}
+
+
+.work_de {
+    /* margin-top: .8em; */
+    text-align: left;
+
+}
+
+.work_de p {
+    line-height: 20px;
+    font-size: 1rem;
+    color: #AEA6A6;
+}
+
+@media screen and (min-width: 576px) {
+    .long_cont {
+
+        /* border: 2px solid blue; */
+    }
+
+    .res_card_long {
+        align-items: stretch;
+        /* outline: 1px solid red; */
+        height: 100%;
+    }
+
+    .res_card_long {
+        justify-content: flex-start;
+
+    }
+
+    .res_card_long .res_h1 {
+        flex: 1;
+        text-align: center;
+        font-size: 1rem;
+        margin: 0;
+
+    }
+
+    .res_card_long .res_d_long {
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+
+    .work_title {
+        color: #FFF;
+        font-family: "Outfit";
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .work_de p {
+        color: #AEA6A6;
+        font-family: "Source Sans 3";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 150% */
+    }
+
+}

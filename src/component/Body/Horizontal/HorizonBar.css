@@ -1,0 +1,61 @@
+.horizon {
+    overflow: hidden;
+    text-align: left;
+    color:  #FFDB96;
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+  
+  /* .horizon:before,
+  .horizon:after {
+    background-color: #FFF;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 168px;
+  }
+  
+  .horizon:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .horizon:after {
+    left: 0.5em;
+    margin-right: -50%;
+  } */
+
+  @media screen and (min-width: 576px) {
+
+    .horizon {
+      overflow: hidden;
+      text-align: center;
+      color:  #FFDB96;
+      font-weight: 500;
+      font-size: 1.4rem;
+      /* border: 5px solid green; */
+    }
+    .horizon:before,
+    .horizon:after {
+      background-color: #FFF;
+      content: "";
+      display: inline-block;
+      height: .01em;
+      position: relative;
+      vertical-align: middle;
+      width: 130px;
+    }
+    
+    .horizon:before {
+      right: 0.5em;
+      margin-left: -50%;  
+    }
+    
+    .horizon:after {
+      left: 0.5em;
+      margin-right: -50%;
+    }
+    
+  }
